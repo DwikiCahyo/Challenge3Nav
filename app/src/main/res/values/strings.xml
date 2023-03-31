@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">wordAppNav</string>
+
+    <!--    data for alphabet-->
+    <string-array name="alphabet_name">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+    <string-array name="first_item">
+        <item>Anjing</item>
+        <item>Bebek</item>
+        <item>Cacing</item>
+        <item>Domba</item>
+        <item>Elang</item>
+        <item>Flamingo</item>
+        <item>Gajah</item>
+        <item>Harimau</item>
+        <item>Ikan Lele</item>
+        <item>Jerapah</item>
+    </string-array>
+
+    <string-array name="second_item">
+        <item>Angsa</item>
+        <item>Badak</item>
+        <item>Cicak</item>
+        <item>Dugong</item>
+        <item>Entog</item>
+        <item>Fly</item>
+        <item>Garuda</item>
+        <item>Hiu</item>
+        <item>Ikan Koi</item>
+        <item>Jaguar</item>
+    </string-array>
+
+    <string-array name="third_item">
+        <item>Ayam</item>
+        <item>Beruang</item>
+        <item>Cupang</item>
+        <item>Dodo</item>
+        <item>Eland</item>
+        <item>Fox</item>
+        <item>Goldfish</item>
+        <item>Hamster</item>
+        <item>Ikan Paus</item>
+        <item>Jangkrik</item>
+    </string-array>
+
+    <string-array name="alphabet_image">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_title_appbar">Word Bank</string>
+    <string name="str_kosong">Kosong</string>
+    <string name="str_change_viewgrid">Change to grid view</string>
+
+</resources>
