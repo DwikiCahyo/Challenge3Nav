@@ -32,9 +32,9 @@ class ContentFragment : Fragment() {
         val args = arguments
 
         val item = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            args?.getParcelable("DATA", Alphabet::class.java)
+            args?.getParcelable(DATA, Alphabet::class.java)
         } else {
-            args?.getParcelable("DATA")
+            args?.getParcelable(DATA)
         }
 
         binding.ivCircleAlphabet.setImageResource(item?.imgAlphabet ?: R.drawable.a)
@@ -67,6 +67,11 @@ class ContentFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+    companion object{
+        const val DATA = "alphabet"
+    }
+
 
 
 }

@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.dwiki.wordappnav.ContentFragment
+import com.dwiki.wordappnav.ContentFragment.Companion.DATA
 import com.dwiki.wordappnav.R
 import com.dwiki.wordappnav.databinding.ListAlphabetItemBinding
 import com.dwiki.wordappnav.model.Alphabet
@@ -29,7 +30,7 @@ class AlphabetAdapter(private val listAlphabet:ArrayList<Alphabet>):RecyclerView
             cvAlphabetItem.setOnClickListener {
 
                 val bundle = Bundle()
-                bundle.putParcelable("DATA",alphabet)
+                bundle.putParcelable(DATA,alphabet)
                 Navigation.findNavController(it).navigate(R.id.action_listAlphabetFragment_to_contentFragment,bundle)
 
             }
